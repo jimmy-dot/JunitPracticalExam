@@ -16,8 +16,7 @@ public class RemoveSingleListItemPage {
 	// Element Library
 	@FindBy(how = How.XPATH, using = "//input[@name='todo[2]']")
 	WebElement SINGLE_LIST_ITEM_CHECKBOX;
-	@FindBy(how = How.XPATH, using = "//input[@value='Remove']")
-	WebElement REMOVE_BUTTON;
+	
 
 	// Method to interact with the element
 	public void clickSingleItemCheckBox() {

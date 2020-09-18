@@ -19,8 +19,8 @@ public class RemoveAllListItemsTest {
 		ToggleAllboxPage ToggleAllCheckBox = PageFactory.initElements(driver, ToggleAllboxPage.class);
 		ToggleAllCheckBox.clickToggleAllBoxField();
 
-		RemoveButtonPage remove = PageFactory.initElements(driver, RemoveButtonPage.class);
-		remove.clickRemoveButton();
+//		RemoveButtonPage remove = PageFactory.initElements(driver, RemoveButtonPage.class);
+//		remove.clickRemoveButton();
 
 	}
 

@@ -1,5 +1,6 @@
 package test;
 
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -9,7 +10,8 @@ import Util.BrowserFactory;
 
 public class RemoveSingleListItemTest {
 	WebDriver driver;
-
+	
+	@Test
 	public void RemoveSingleListItem() {
 
 		driver = BrowserFactory.launchBrowser();
